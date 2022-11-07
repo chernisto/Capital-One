@@ -44,9 +44,8 @@ a{
 
 ul{
     display: flex;
-    background: rgb(0, 68, 255);
     justify-content: space-around;
-    color: whitesmoke;
+    color: rgb(0, 133, 177);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0.7rem;
 }
@@ -57,24 +56,36 @@ ul li{
 
 main{
     flex-grow: 1;
-    background: rgb(242, 245, 247);
+    background: rgb(0, 133, 177);
     display: flex;
+    padding-bottom: 1rem;
 }
 
 footer{
+    margin-top: 1rem;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 0.5rem;
+}
+
+footer a{
+    color: rgb(0, 133, 177);
+    border-bottom: 2px gray solid;
 }
 
 article{
     line-height: 2.5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(61, 105, 228);
+    color: white;
     font-size: 1.5rem;
     flex-grow: 1;
     margin: 2rem 0.5rem 0 0.5rem;
 }
 
+.continents{
+    margin-left: 1rem;
+}
+
 .image{
     margin-top: 2rem;
-    /* border: 2px red solid; */
 }
