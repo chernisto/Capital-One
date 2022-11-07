@@ -89,3 +89,16 @@ article{
 .image{
     margin-top: 2rem;
 }
+
+.hello a{
+    color: rgb(0, 133, 177);
+    border-bottom: 2px gray solid;
+}
+
+.go{
+    display: none;
+}
+
+.off{
+    display: block;
+}
