@@ -70,8 +70,8 @@ footer{
 article{
     line-height: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(61, 105, 228);;
-    /* border: 2px solid red; */
+    color: rgb(61, 105, 228);
+    font-size: 1.5rem;
     flex-grow: 1;
     margin: 2rem 0.5rem 0 0.5rem;
 }
