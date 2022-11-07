@@ -6,11 +6,77 @@
 
 body{
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
 }
 
 header{
-    background: lightblue;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding-top: 0.3rem;
+    background: rgb(0, 133, 177);
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu{
+    font-size: 1.3rem;
+    margin: 0 1rem 0.2rem 0;
+    padding: 0.2rem;
+    color: white;
+    background: blue;
+    border: 0.125rem blue solid;
+    border-radius: 0.3125rem;
+
+}
+
+ul{
+    display: flex;
+    background: rgb(0, 68, 255);
+    justify-content: space-around;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+main{
+    flex-grow: 1;
+    /* border: 2px red solid; */
+    background: rgb(242, 245, 247);
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+footer{
+    text-align: center;
+}
+
+article{
+    line-height: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(61, 105, 228);;
+    /* border: 2px solid red; */
+    flex-grow: 1;
+    margin: 2rem 0.5rem 0 0.5rem;
+}
+
+.image{
+    margin-top: 2rem;
+    /* border: 2px red solid; */
 }
