@@ -9,7 +9,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-   
 }
 
 header{
@@ -56,7 +55,7 @@ ul li{
 
 main{
     flex-grow: 1;
-    background: rgb(0, 133, 177);
+    background: rgba(0, 133, 177, 40%);
     display: flex;
     padding-bottom: 1rem;
 }
