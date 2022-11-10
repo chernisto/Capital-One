@@ -11,12 +11,18 @@ body{
     justify-content: space-between;
 }
 
+.navigation{
+    position: fixed;
+    width: 100vw;
+}
+
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 0.3rem;
     background: rgb(0, 133, 177);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 35%);
 }
 
 a{
@@ -44,9 +50,16 @@ a{
 ul{
     display: flex;
     justify-content: space-around;
-    color: rgb(0, 133, 177);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0.7rem;
+    background: rgb(230, 230, 230);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 35%);
+    
+}
+
+.nav a{
+    color: rgb(5, 37, 48);
+    border-bottom: 2px gray solid;
 }
 
 ul li{
@@ -54,12 +67,66 @@ ul li{
 }
 
 main{
+    margin-top: 5.5rem;
     flex-grow: 1;
     background: rgba(0, 133, 177, 40%);
     display: flex;
     padding-bottom: 1rem;
 }
 
+article{
+    line-height: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    flex-grow: 1;
+    margin: 3.5rem 0.5rem 0 0.5rem;
+}
+
+.image{
+    margin-top: 2rem;
+}
+
+.continents{
+    margin-left: 1rem;
+}
+
+
+.do_not_display_nav{
+    display: none;
+}
+
+.off{
+    display: block;
+}
+/* Services-------------------------------------------------------------------------------- */
+
+.s_article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.s_article div{
+    border: 2px black solid;
+    width: 21.875rem;
+    height: 10.875rem;
+    border-radius: 0.625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ria{
+    background: orangered;
+}
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------- */
 footer{
     margin-top: 1rem;
     text-align: center;
@@ -70,34 +137,4 @@ footer{
 footer a{
     color: rgb(0, 133, 177);
     border-bottom: 2px gray solid;
-}
-
-article{
-    line-height: 2.5rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    font-size: 1.5rem;
-    flex-grow: 1;
-    margin: 2rem 0.5rem 0 0.5rem;
-}
-
-.continents{
-    margin-left: 1rem;
-}
-
-.image{
-    margin-top: 2rem;
-}
-
-.hello a{
-    color: rgb(0, 133, 177);
-    border-bottom: 2px gray solid;
-}
-
-.go{
-    display: none;
-}
-
-.off{
-    display: block;
-}
+} 
